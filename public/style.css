@@ -1,0 +1,543 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+	font-family:helvetica,arial,clean,sans-serif;
+	font-size:13px;
+}
+
+a {
+	text-decoration: none;
+	color: #1070df;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input, button, select {
+	padding: 6px;
+}
+
+input[type=password], input[type=text] {
+	width: 240px;
+	border: 1px solid #e5e5e5;
+}
+
+input[type=password]:focus, input[type=text]:focus {
+	border: 1px solid #4786ee;
+}
+
+.btn {
+	background-color: #4786ee;
+	border: 1px solid #3078ed;
+	color: #ffffff;
+}
+
+.btn:hover {
+	background-color: #1c6ae8;
+}
+
+.btn_inverse {
+	background-color: #252525;
+	border: 1px solid #696969;
+	color: #ffffff;
+    padding: 14px;
+}
+
+.btn_inverse:hover {
+	background-color: #3e3e3e;
+}
+
+.form_element {
+	display: block;
+	padding: 10px 0 0 20px;
+}
+
+.form_element label {
+	display: block;
+	margin-bottom: 4px;
+	font-weight: bold;
+}
+
+#signin_form {
+	width: 294px;
+	border: 1px solid #e5e5e5;
+    margin: 0 auto;
+	margin-top: 100px;
+	background-color: #f1f1f1;
+	padding-bottom: 20px;
+}
+
+#signin_form .header {
+	background-color: #aaaaaa;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#signin_form .header h1 {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.alert_error {
+	background-color: #f2dede;
+	color: #cd4a48;
+	padding: 6px;
+	border: 1px solid #eed3d7;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	margin: 20px;
+	margin-bottom: 10px;
+}
+
+#cssmenu > article {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.padding-10{
+    padding: 10px;
+}
+
+.line_error {
+	color: #cd4a48;
+}
+
+#signup_form .header .pull_right {
+	margin-top: -24px;
+}
+
+#profile_leftbox {
+    clear: both;
+    border: 1px solid #e5e5e5;
+    background-color: #f1f1f1;
+    min-height: 317px;
+    margin-bottom: 15px;
+}
+
+#profile_leftbox .header {
+    background-color: #aaaaaa;
+    padding: 10px;
+}
+
+#profile_leftbox .body {
+    padding: 20px;
+}
+
+
+#profile_leftbox .header h1 {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: normal;
+    display: inline-block;
+}
+
+#profile_leftbox .header button {
+    margin-top: -5px;
+    margin-right: -5px;
+}
+
+
+#profile_box {
+	width: 500px;
+	border: 1px solid #e5e5e5;
+    margin: 0 auto;
+	margin-top: 80px;
+	background-color: #f1f1f1;
+}
+
+#profile_box .header {
+	background-color: #aaaaaa;
+	padding: 10px;
+}
+
+#profile_box .body {
+	padding: 20px;
+	height: 200px;
+}
+
+
+#profile_box .header h1 {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: normal;
+	display: inline-block;
+}
+
+#profile_box .header button {
+	margin-top: -5px;
+	margin-right: -5px;
+}
+
+.pull_right {
+	float: right;
+}
+
+#profile_picture {
+	background-image: url('./images/profile_default.gif');
+	width: 150px;
+	height: 200px;
+	float: left;
+	background-size: 100% 100%;
+}
+
+#profile_info {
+	margin-left: 10px;
+	float: left;
+}
+
+#profile_info h1 {
+	font-size: 18px;
+}
+
+.help_tooltip {
+	background: url('./images/question-help-icon.png');
+	width:15px;
+	height:15px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+#signup_form {
+	width: 400px;
+	border: 1px solid #e5e5e5;
+    margin: 0 auto;
+	margin-top: 20px;
+	background-color: #f1f1f1;
+	padding-bottom: 20px;
+}
+
+#signup_form .header {
+	background-color: #aaaaaa;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+#signup_form .header h1 {
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.locale {
+    padding-bottom: 50px;
+}
+
+.DivToScroll {
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 10px 7px 5px;
+    width: 700px;
+}
+.DivWithScroll {
+    height:250px;
+    overflow:scroll;
+    overflow-x:hidden;
+}
+.message {
+    width: 700px;
+    min-height: 50px;
+}
+.mas {
+    float: left;
+    margin-left: 10px;
+    line-height: 2;
+}
+
+.clearDiv {clear: both;height: 0px;}
+
+#Wrapper {
+    background-color: #CCCCCC;
+    width: 285px;
+}
+
+.extrafieldsFiles {
+    width: 500px;
+    margin-left: 10px;
+    background-color: #e9e9e9;
+}
+.extrafieldsLinks {
+    margin-top: 10px;
+    margin-left: 10px;
+    /*background-color: #a9a9a9;*/
+}
+.extrafieldsvideo {
+    margin-top: 10px;
+    margin-left: 10px;
+    /*background-color: #b9b9b9;*/
+}
+.shiftLeft15{margin-left: 15px;}
+.shiftBottom10{margin-bottom: 10px;}
+.links, .video{width: 250px !important;}
+.links {font-weight: bold; color: #0000FF;}
+.files {font-weight: bold; color: #0000FF;}
+.videos {font-weight: bold; color: #0000FF;}
+.hide {display: none;}
+
+/*   ------start popup window------------------------  */
+/* popup_box DIV-Styles*/
+#popup_box {
+    display:none; /* Hide the DIV */
+    position:fixed;
+    _position:absolute; /* hack for internet explorer 6 */
+    height:300px;
+    width:600px;
+    background:#FFFFFF;
+    left: 300px;
+    top: 150px;
+    z-index:100; /* Layering ( on-top of others), if you have lots of layers: I just maximized, you can change it yourself */
+    margin-left: 15px;
+
+    /* additional features, can be omitted */
+    border:2px solid #ff0000;
+    padding:15px;
+    font-size:15px;
+    -moz-box-shadow: 0 0 5px #ff0000;
+    -webkit-box-shadow: 0 0 5px #ff0000;
+    box-shadow: 0 0 5px #ff0000;
+
+}
+
+a{
+    cursor: pointer;
+    text-decoration:none;
+}
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose {
+    font-size:20px;
+    line-height:15px;
+    right:5px;
+    top:5px;
+    position:absolute;
+    color:#6fa5e2;
+    font-weight:500;
+}
+/*  ------end  popup window -------------------------  */
+.video_ifrem {cursor: pointer; color: #cc3300;}
+.msgcount{font-size: 14px;}
+.bg1{background-color: #CCCCCC;}
+.bgh1 {padding: 5px;background-color: #e9e9e9}
+.fleft_boards {float: left; margin-left: 10px;}
+.wt {width: 600px;}
+.ta {width: 500px; height: 250px;}
+.newboardlink{font-size: 14px; font-weight: bold;}
+.intend30 {margin-left: 30px}
+
+#addfile, #addlink, #addvideo{
+    font-size: 17px;
+    padding: 5px;
+    vertical-align: -webkit-baseline-middle;
+}
+
+#wrapper_link, #wrapper_video{
+    margin-top: 5px;
+}
+
+/************************************************* START MENU *************************************************/
+
+#cssmenu,
+#cssmenu ul,
+#cssmenu ul li,
+#cssmenu ul li a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    line-height: 1;
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#cssmenu {
+    border-bottom: 3px solid #333333;
+    padding: 0 5px;
+    width: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    background: #dddddd;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+#cssmenu ul li {
+    display: inline-block;
+}
+#cssmenu.align-right ul li {
+    float: right;
+}
+#cssmenu.align-center ul {
+    text-align: center;
+}
+#cssmenu ul li a {
+    font-size: 14px;
+    padding: 15px;
+    text-decoration: none;
+    color: #0e83cd;
+}
+#cssmenu ul li:hover a,
+#cssmenu ul li a:hover,
+#cssmenu ul li.active a {
+    color: #333333;
+}
+@media all and (max-width: 640px) {
+    #cssmenu {
+        padding: 0;
+        border-radius: 0;
+        border: 0;
+    }
+    #cssmenu ul li,
+    #cssmenu.align-center,
+    #cssmenu.align-right {
+        display: block;
+    }
+}
+
+.nav-menu{
+    width: 255px;
+}
+
+.nav-menu li, .nav-board li{
+    margin-bottom: 7px;
+    list-style: none;
+}
+
+#container{
+    padding-top: 27px;
+    max-width: 945px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.grid_left{
+    float: left;
+    max-width: 405px;
+}
+
+.grid_right{
+    float: right;
+    max-width: 505px;
+}
+
+.grid_box{
+    max-width: 502px;
+}
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+#chat, #myForm, #text{
+    max-width: 479px;
+}
+
+.row{
+    margin:10px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 910px) {
+    .grid_right, .grid_left {
+        float:none;
+    }
+    .grid_right{
+        margin-top:30px;
+    }
+    #container{
+        margin-left: 100px;
+    }
+}
+
+.content{
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.max-width-405px{
+    max-width: 405px !important;
+}
+
+.left_text_bl{
+    width: 355px;
+    word-wrap: break-word;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+
+.btn_blue{
+    background-color: blue;
+    color: beige;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    cursor: pointer;
+}
+
+.btn_blue:hover{
+    opacity: 1;
+    -moz-opacity: 1;
+}
+
+.btn_blue:active{
+    transform: scale(0.98999999);
+}
+
+.pull_left{
+    float: left !important;
+}
+
+#signin_form > .header {
+    min-height: 25px;
+}
+
+#sortable {clear: both; list-style-type: none; margin: 0px; padding: 0; cursor: pointer; }
+#sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em;  }
+#sortable li span { position: absolute; margin-left: -1.3em; }
+
+#nosortable { list-style-type: none; margin: 0px; padding: 0; width: 800px; }
+#nosortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em;  }
+#nosortable li span { position: absolute; margin-left: -1.3em; }
+
+.shift {margin-left: 25px; margin-top: 35px;}
+
+#preview-image img {
+    max-width: 100%;
+}
